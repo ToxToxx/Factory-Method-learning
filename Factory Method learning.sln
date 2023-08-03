@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory Method learning", "Factory Method learning\Factory Method learning.csproj", "{9E73C739-221D-49C6-99AA-D32381D30E53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E73C739-221D-49C6-99AA-D32381D30E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E73C739-221D-49C6-99AA-D32381D30E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E73C739-221D-49C6-99AA-D32381D30E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E73C739-221D-49C6-99AA-D32381D30E53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E8F6B12-E16C-4B39-8FA4-A1A4BDFC7DF7}
+	EndGlobalSection
+EndGlobal
