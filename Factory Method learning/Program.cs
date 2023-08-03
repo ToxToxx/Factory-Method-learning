@@ -16,6 +16,9 @@ namespace Factory_Method_learning
             driver = new WaterTransportDriver("Максим", "Капитан");
             Transport transport = driver.Create();
 
+            driver = new AirTransportDriver("Марк", "Пилот");
+            Transport transport2 = driver.Create();
+
             Console.ReadLine();
         }
     }
@@ -55,6 +58,17 @@ namespace Factory_Method_learning
             return new WaterTransport();
         }
     }
+    // drive air Transport
+    class AirTransportDriver : Driver
+    {
+        public AirTransportDriver(string name, string specification) : base(name, specification)
+        { }
+
+        public override Transport Create()
+        {
+            return new AirTransport();
+        }
+    }
 
     abstract class Transport
     {
@@ -75,5 +89,12 @@ namespace Factory_Method_learning
             Console.WriteLine("Rides water transport");
         }
     }
-
+    
+    class AirTransport : Transport
+    {
+        public AirTransport()
+        {
+            Console.WriteLine("Flies over sea");
+        }
+    }
 }
