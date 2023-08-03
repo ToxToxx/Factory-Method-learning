@@ -44,6 +44,7 @@ namespace Factory_Method_learning
 
         public override Transport Create()
         {
+            Console.WriteLine("This transport drives by " + Name);
             return new EarthTransport();
         }
     }
@@ -92,9 +93,11 @@ namespace Factory_Method_learning
     
     class AirTransport : Transport
     {
+        private float _flyingSpeed = 60.5f;
         public AirTransport()
         {
             Console.WriteLine("Flies over sea");
+            Console.WriteLine("Max speed " + _flyingSpeed);
         }
     }
 }
